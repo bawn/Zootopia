@@ -1,0 +1,13 @@
+source 'https://github.com/CocoaPods/Specs.git'
+inhibit_all_warnings!
+platform:ios,'8.0'
+
+target 'Zootopia' do
+    # Reveal
+    pod 'Reveal-SDK', :configurations => ['Debug']
+
+    # ping++
+    pod 'Pingpp'                                #https://github.com/PingPlusPlus/pingpp-ios
+    pod 'Pingpp/Alipay'
+    pod 'Pingpp/Wx'
+end

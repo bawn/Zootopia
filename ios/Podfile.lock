@@ -1,0 +1,27 @@
+PODS:
+  - Pingpp (2.2.10):
+    - Pingpp/Alipay (= 2.2.10)
+    - Pingpp/Core (= 2.2.10)
+    - Pingpp/UnionPay (= 2.2.10)
+  - Pingpp/Alipay (2.2.10):
+    - Pingpp/Core
+  - Pingpp/Core (2.2.10)
+  - Pingpp/UnionPay (2.2.10):
+    - Pingpp/Core
+  - Pingpp/Wx (2.2.10):
+    - Pingpp/Core
+  - Reveal-SDK (6)
+
+DEPENDENCIES:
+  - Pingpp
+  - Pingpp/Alipay
+  - Pingpp/Wx
+  - Reveal-SDK
+
+SPEC CHECKSUMS:
+  Pingpp: a267566fbab76c4c3b65adb0655635b1d5ba7fdc
+  Reveal-SDK: 67460e58f93711c7b18631d12c2b5de7740e48b5
+
+PODFILE CHECKSUM: 7454530a796146d86181a327bb33efbeb799ba8d
+
+COCOAPODS: 1.1.1
